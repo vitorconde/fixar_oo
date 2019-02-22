@@ -26,7 +26,8 @@ public class Game {
 		Game game = new Game();
 		Player player = game.getPlayer();
 		player.atacarInimigo(game.getEnemy());
-		System.out.println(game.getEnemy().life);
+		System.out.print("Você atacou! -1 de vida do inimigo : ");
+		System.out.print(game.getEnemy().life);
 		
 	}
 	
